@@ -183,3 +183,10 @@ body.subpage .tool{margin-top:0}
     padding-top:0!important;
   }
 }
+
+/* Desktop artwork offset: keep the full animated stack visible below the nav. */
+@media(min-width:821px){
+  .hero .stage,body.subpage .hero .stage{
+    transform:translateY(34px);
+  }
+}
