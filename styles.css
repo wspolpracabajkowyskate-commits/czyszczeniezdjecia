@@ -25,3 +25,5 @@
 #work .card.after h3{color:#168545}
 @media(max-width:820px){#work .card .pic{height:clamp(340px,62vw,470px);min-height:clamp(340px,62vw,470px)}}
 @media(max-width:620px){#work .grid{gap:16px}#work .card{border-radius:20px}#work .card .pic{height:clamp(320px,92vw,430px);min-height:clamp(320px,92vw,430px);padding:10px}#work .card .pic img{border-radius:12px}}
+
+.tool-note{max-width:1180px;margin:14px auto 0;padding:0 4px;color:#6e6e73;font-size:13px;line-height:1.55}.tool-note strong{color:#424245;font-weight:650}
