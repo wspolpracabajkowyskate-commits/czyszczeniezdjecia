@@ -4,4 +4,5 @@
   <url><loc>https://imagemetaclean.com/remove-c2pa-metadata</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://imagemetaclean.com/remove-exif-data</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://imagemetaclean.com/remove-ai-image-metadata</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://imagemetaclean.com/remove-meta-facebook-ai-metadata</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
