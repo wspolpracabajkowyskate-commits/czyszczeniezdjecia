@@ -89,3 +89,17 @@ body.subpage .stage{height:370px}
  body.subpage .hero .lead{font-size:16px;line-height:1.55;margin-bottom:18px}
  body.subpage .tool{padding-bottom:36px}
 }
+
+/* Keep the upload panel anchored at the exact same vertical position on every tool page. */
+body.subpage .hero{height:484px;min-height:484px;max-height:484px;align-items:center}
+body.subpage .tool{margin-top:0}
+@media(max-width:820px){
+ body.subpage .hero{height:390px;min-height:390px;max-height:390px;display:grid;grid-template-columns:1fr;align-content:center;justify-items:center;gap:0;padding:24px max(5vw,18px) 18px}
+ body.subpage .hero>div:first-child{width:100%}
+ body.subpage .hero .stage{display:none!important}
+ body.subpage .hero h1{margin-top:0}
+}
+@media(max-width:620px){
+ body.subpage .hero{height:370px;min-height:370px;max-height:370px;padding:22px 18px 16px}
+ body.subpage .hero .lead{max-width:38ch}
+}
