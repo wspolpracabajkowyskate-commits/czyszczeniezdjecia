@@ -159,3 +159,27 @@ body.subpage .tool{margin-top:0}
   .hero>div:first-child,body.subpage .hero>div:first-child{padding-top:8px}
   .hero .stage,body.subpage .hero .stage{align-self:start}
 }
+
+/* Desktop finishing pass: let the 3D artwork breathe without leaving a blank strip below it. */
+@media(min-width:821px){
+  .hero,body.subpage .hero{
+    height:auto!important;min-height:0!important;max-height:none!important;
+    padding-top:24px!important;padding-bottom:4px!important;
+    overflow:visible!important;
+    align-items:start!important;
+  }
+  .hero .stage,body.subpage .hero .stage{
+    height:340px!important;
+    min-height:340px;
+    overflow:visible!important;
+    align-self:start!important;
+    margin-top:0!important;
+  }
+  .hero .stack,body.subpage .hero .stack{
+    width:min(235px,60%);
+  }
+  .tool,body.subpage .tool{
+    margin-top:0!important;
+    padding-top:0!important;
+  }
+}
