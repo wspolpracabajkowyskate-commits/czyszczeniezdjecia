@@ -305,3 +305,36 @@ body.subpage .tool{margin-top:0}
     padding-bottom:2px!important;
   }
 }
+
+
+/* Mobile spacing fix: let the hero take only the space its content needs. */
+@media(max-width:820px){
+  .hero,body.subpage .hero{
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    padding:14px 22px 4px!important;
+    margin-bottom:0!important;
+    align-content:start!important;
+    gap:0!important;
+  }
+  .hero>div:first-child,body.subpage .hero>div:first-child{
+    padding:0!important;
+    margin:0!important;
+  }
+  .hero h1,body.subpage .hero h1{margin-bottom:10px!important}
+  .hero .lead,body.subpage .hero .lead{margin-bottom:12px!important}
+  .hero .cta,body.subpage .hero .cta{margin-bottom:0!important}
+  .hero .priv,body.subpage .hero .priv{display:block;margin:8px 0 0!important}
+  .tool,body.subpage .tool{
+    margin:0 auto!important;
+    padding-top:0!important;
+  }
+  .panel,body.subpage .panel{margin-top:0!important}
+}
+@media(max-width:620px){
+  .hero,body.subpage .hero{padding:12px 18px 2px!important}
+  .hero h1,body.subpage .hero h1{margin-bottom:9px!important}
+  .hero .lead,body.subpage .hero .lead{margin-bottom:10px!important}
+  .hero .priv,body.subpage .hero .priv{margin-top:7px!important}
+}
