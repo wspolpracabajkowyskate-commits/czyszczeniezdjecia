@@ -542,3 +542,22 @@ body:not(.subpage) .hero{height:auto!important;min-height:484px;max-height:none!
   body:not(.subpage) .hero .lead{font-size:15px!important;line-height:1.45!important;margin-bottom:13px!important}
   body:not(.subpage) .hero .priv{margin-top:8px!important}
 }
+
+
+/* Final positioning polish across homepage and all tool landing pages. */
+@media(min-width:821px){
+  .hero .stage,body.subpage .hero .stage{transform:translateY(30px)!important}
+}
+@media(max-width:820px){
+  .hero,body.subpage .hero{padding-bottom:10px!important}
+  .tool,body.subpage .tool{padding-top:0!important;margin-top:0!important}
+  .tool .panel,body.subpage .tool .panel{margin-top:0!important}
+}
+@media(max-width:620px){
+  .hero,body.subpage .hero{padding-bottom:8px!important}
+  .hero .lead,body.subpage .hero .lead{margin-bottom:11px!important}
+  .hero .priv,body.subpage .hero .priv{margin-top:7px!important}
+  .tool .panel,body.subpage .tool .panel{padding-top:12px!important}
+  .tool #drop,body.subpage .tool #drop{min-height:202px!important;padding-top:18px!important;padding-bottom:18px!important;gap:10px!important}
+  .tool .tool-note,body.subpage .tool .tool-note{margin-top:14px!important}
+}
