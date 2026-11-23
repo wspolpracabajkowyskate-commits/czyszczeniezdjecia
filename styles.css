@@ -399,3 +399,12 @@ body.subpage .tool{margin-top:0}
 
 /* Local metadata inspector summary */
 .scan-summary{margin-top:18px;padding:20px 22px;border:1px solid rgba(0,0,0,.07);border-radius:18px;background:linear-gradient(135deg,#fbfcff,#f5f7fb)}.scan-eyebrow{font-size:10px;letter-spacing:.12em;font-weight:750;color:#0071e3}.scan-summary h3{font-size:18px;margin:5px 0 10px;letter-spacing:-.02em}.scan-counts{display:flex;flex-wrap:wrap;gap:10px 24px;margin:0 0 8px;color:#515158;font-size:14px}.scan-counts strong{color:#1d1d1f}.scan-disclaimer{margin:0;color:#6e6e73;font-size:12px;line-height:1.6}@media(max-width:620px){.scan-summary{padding:16px;border-radius:15px}.scan-counts{display:grid;gap:4px}}
+
+/* Premium one-pass white scan across the cleaned image preview */
+.card.after .pic{position:relative;overflow:hidden;isolation:isolate}
+.card.after .pic::after{content:"";position:absolute;z-index:3;inset:-18% auto -18% -58%;width:38%;pointer-events:none;opacity:0;transform:skewX(-16deg);background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.12) 22%,rgba(255,255,255,.82) 48%,rgba(255,255,255,.98) 52%,rgba(255,255,255,.28) 76%,transparent 100%);filter:blur(1px)}
+.card.after .pic.scan-pass::after{opacity:1;animation:cleanScanSweep 1.12s cubic-bezier(.2,.72,.25,1) both}
+.card.after .pic.scan-pass img{animation:cleanImageReveal 1.12s ease-out both}
+@keyframes cleanScanSweep{0%{left:-58%;opacity:0}8%{opacity:1}82%{opacity:.92}100%{left:128%;opacity:0}}
+@keyframes cleanImageReveal{0%{filter:brightness(1.09) saturate(.94)}38%{filter:brightness(1.035) saturate(.98)}100%{filter:brightness(1) saturate(1)}}
+@media(prefers-reduced-motion:reduce){.card.after .pic.scan-pass::after,.card.after .pic.scan-pass img{animation:none!important}.card.after .pic.scan-pass::after{display:none}}
