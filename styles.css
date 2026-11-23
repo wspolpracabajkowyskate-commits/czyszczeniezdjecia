@@ -408,3 +408,8 @@ body.subpage .tool{margin-top:0}
 @keyframes cleanScanSweep{0%{left:-58%;opacity:0}8%{opacity:1}82%{opacity:.92}100%{left:128%;opacity:0}}
 @keyframes cleanImageReveal{0%{filter:brightness(1.09) saturate(.94)}38%{filter:brightness(1.035) saturate(.98)}100%{filter:brightness(1) saturate(1)}}
 @media(prefers-reduced-motion:reduce){.card.after .pic.scan-pass::after,.card.after .pic.scan-pass img{animation:none!important}.card.after .pic.scan-pass::after{display:none}}
+
+
+/* Clear AI-detection limitation shown with the cleaned image results */
+.ai-meta-note{margin:12px 0 8px;padding:12px 14px;border:1px solid rgba(0,113,227,.13);border-radius:12px;background:linear-gradient(110deg,rgba(0,113,227,.055),rgba(125,112,230,.045));color:#626775;font-size:12px;line-height:1.55}.ai-meta-note strong{display:block;margin-bottom:3px;color:#315f9d;font-size:12px;font-weight:700}
+@media(max-width:620px){.ai-meta-note{margin:10px 0 7px;padding:11px 12px;font-size:11px}}
