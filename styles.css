@@ -443,3 +443,24 @@ body.subpage .tool{margin-top:0}
 .ai-social-caveat{max-width:850px;margin:18px auto 0;padding:13px 16px;border:1px solid rgba(0,113,227,.12);border-radius:12px;background:#f7f9fd;color:#6e707a;font-size:12px;line-height:1.65}
 .ai-social-caveat strong{color:#3f526f}
 @media(max-width:650px){.ai-social-demo{padding:0 16px;margin:54px auto}.ai-social-compare{grid-template-columns:1fr;gap:10px;max-width:420px}.social-arrow{transform:rotate(90deg);font-size:24px;height:20px}.social-photo{height:160px}.ai-social-copy{text-align:left}.ai-social-copy p{font-size:14px}.ai-social-caveat{font-size:11px;padding:12px}}
+
+
+/* Facebook-style post preview: the real AI info label sits beneath the profile name */
+.ai-social-compare{max-width:900px}
+.social-preview{border:1px solid #e2e5e9;border-radius:12px;box-shadow:0 3px 14px rgba(0,0,0,.07)}
+.social-top{align-items:flex-start;padding:14px 14px 12px}
+.social-avatar{flex:0 0 40px;width:40px;height:40px;background:#e5eaf2;color:#53657c}
+.social-user{min-width:0;flex:1}
+.social-user strong{font-size:14px;color:#1c1e21;font-weight:700}
+.social-user small{font-size:11px;color:#65676b}
+.fb-ai-label{display:flex;align-items:center;gap:4px;margin-top:5px;color:#65676b;font-size:12px;font-weight:650}
+.fb-ai-label span{font-size:14px;color:#65676b}
+.social-photo{height:220px;background:linear-gradient(155deg,#a9c9df 0%,#e8ddc9 57%,#9ab49e 100%)}
+.social-photo .photo-sun{top:30px;right:19%;width:52px;height:52px}
+.social-photo .photo-hill.one{bottom:-46%}
+.social-photo .photo-hill.two{bottom:-57%}
+.social-engagement{padding:11px 13px;border-top:1px solid #e4e6eb;color:#65676b;font-size:11px;font-weight:600;white-space:nowrap}
+.social-caption{padding:10px 13px 13px;border-top:1px solid #e4e6eb;font-size:11px;color:#65676b}
+.no-ai-label{display:inline-block;color:#21834b;font-weight:700;margin-bottom:4px}
+.social-arrow{font-size:30px;color:#8994a5}
+@media(max-width:650px){.social-photo{height:170px}.social-engagement{font-size:10px}.social-top{padding:12px}}
