@@ -502,3 +502,8 @@ body.subpage .tool{margin-top:0}
 #work .result-left-column,#work .result-right-column{height:100%;min-height:0}
 #work .result-left-column .scan-summary{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start}
 @media(max-width:820px){#work .grid{align-items:stretch!important}#work .result-left-column,#work .result-right-column{height:auto}#work .result-left-column .scan-summary{flex:0 0 auto}}
+
+
+/* Keep source and cleaned comparison previews visually identical. */
+.fb-mini-image{filter:none!important;opacity:1!important;mix-blend-mode:normal!important}
+.card.after .pic img{animation:none!important;filter:none!important}
