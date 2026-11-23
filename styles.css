@@ -464,3 +464,23 @@ body.subpage .tool{margin-top:0}
 .no-ai-label{display:inline-block;color:#21834b;font-weight:700;margin-bottom:4px}
 .social-arrow{font-size:30px;color:#8994a5}
 @media(max-width:650px){.social-photo{height:170px}.social-engagement{font-size:10px}.social-top{padding:12px}}
+
+
+/* Inline Facebook AI-info before/after illustration inside the cleaned result card */
+.fb-meta-demo{margin:10px 18px 12px;padding:13px;border:1px solid #e4e7ec;border-radius:15px;background:#f7f8fa}
+.fb-demo-heading{display:flex;flex-direction:column;gap:4px;margin-bottom:10px}
+.fb-demo-heading span{font-size:9px;letter-spacing:.12em;font-weight:800;color:#7a8493}
+.fb-demo-heading strong{font-size:13px;line-height:1.3;color:#24262b}
+.fb-demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.fb-mini-post{min-width:0;overflow:hidden;border:1px solid #e2e5e9;border-radius:10px;background:#fff}
+.fb-mini-user{display:flex;align-items:flex-start;gap:7px;padding:8px 7px;min-height:49px}
+.fb-mini-avatar{display:grid;place-items:center;flex:0 0 25px;width:25px;height:25px;border-radius:50%;background:#e7edf5;color:#586b84;font-size:10px;font-weight:800}
+.fb-mini-user b,.fb-mini-user small,.fb-mini-user em{display:block;line-height:1.25}
+.fb-mini-user b{font-size:9px;color:#25272b}
+.fb-mini-user small{margin-top:2px;color:#858992;font-size:8px}
+.fb-mini-user em{margin-top:3px;color:#62666d;font-size:9px;font-style:normal;font-weight:700}
+.fb-mini-image{display:block;width:100%;height:88px;object-fit:cover;background:#eceef1}
+.fb-mini-state{padding:6px 7px;color:#747b86;font-size:7px;font-weight:800;letter-spacing:.055em;line-height:1.3}
+.fb-mini-state.clean-state{color:#23804c}
+.fb-demo-foot{margin:9px 1px 0;color:#747b86;font-size:9px;line-height:1.45}
+@media(max-width:620px){.fb-meta-demo{margin:9px 12px 10px;padding:10px}.fb-mini-image{height:78px}.fb-mini-user{padding:7px 5px;gap:5px}.fb-mini-user b{font-size:8px}.fb-mini-user small,.fb-mini-user em{font-size:7px}.fb-mini-state{font-size:6px;padding:5px}}
