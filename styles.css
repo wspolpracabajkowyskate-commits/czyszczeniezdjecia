@@ -565,3 +565,7 @@ body:not(.subpage) .hero{height:auto!important;min-height:484px;max-height:none!
 
 /* Actual animated artwork offset (the .stack itself, not its .stage wrapper). */
 @media(min-width:821px){.hero .stage .stack,body.subpage .hero .stage .stack{position:relative!important;top:10px!important}}
+
+
+/* Additional desktop-only downward adjustment for the animated stack. */
+@media(min-width:821px){.hero .stage .stack,body.subpage .hero .stage .stack{top:20px!important}}
