@@ -5,4 +5,8 @@
   <url><loc>https://imagemetaclean.com/remove-exif-data</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://imagemetaclean.com/remove-ai-image-metadata</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://imagemetaclean.com/remove-meta-facebook-ai-metadata</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://imagemetaclean.com/guides/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagemetaclean.com/guides/remove-photo-location-metadata/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://imagemetaclean.com/guides/ai-image-metadata-explained/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://imagemetaclean.com/guides/c2pa-metadata-explained/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 </urlset>
