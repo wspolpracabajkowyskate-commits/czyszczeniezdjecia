@@ -338,3 +338,25 @@ body.subpage .tool{margin-top:0}
   .hero .lead,body.subpage .hero .lead{margin-bottom:10px!important}
   .hero .priv,body.subpage .hero .priv{margin-top:7px!important}
 }
+
+
+/* Refined upload card: the privacy/AI notice belongs inside the same white card. */
+.tool .panel{padding:clamp(18px,3vw,34px)!important}
+.tool .tool-note{
+  max-width:none;
+  margin:18px 4px 2px;
+  padding:0;
+  color:#6e6e73;
+  font-size:13px;
+  line-height:1.6;
+}
+.tool .tool-note strong{color:#424245}
+@media(max-width:620px){
+  .tool .panel{padding:14px!important;border-radius:26px!important}
+  .tool #drop{min-height:218px!important;padding:24px 18px!important;gap:12px}
+  .tool #drop .ico{width:64px;height:64px;border-radius:19px}
+  .tool #drop h2{font-size:23px;margin-top:5px}
+  .tool #drop p{font-size:14px;line-height:1.5}
+  .tool .tool-note{margin:18px 5px 3px;font-size:13px;line-height:1.6}
+  .tool .trust{margin-top:20px}
+}
