@@ -561,3 +561,7 @@ body:not(.subpage) .hero{height:auto!important;min-height:484px;max-height:none!
   .tool #drop,body.subpage .tool #drop{min-height:202px!important;padding-top:18px!important;padding-bottom:18px!important;gap:10px!important}
   .tool .tool-note,body.subpage .tool .tool-note{margin-top:14px!important}
 }
+
+
+/* Actual animated artwork offset (the .stack itself, not its .stage wrapper). */
+@media(min-width:821px){.hero .stage .stack,body.subpage .hero .stage .stack{position:relative!important;top:10px!important}}
