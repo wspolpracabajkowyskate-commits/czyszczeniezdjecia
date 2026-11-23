@@ -395,4 +395,4 @@ body.subpage .tool{margin-top:0}
 .guide-inline>a{white-space:nowrap;font-weight:650}
 @media(max-width:760px){.guide-grid{grid-template-columns:1fr}.guide-main{padding-top:42px}.guide-inline{display:block}.guide-inline>a{display:inline-block;margin-top:14px}}
 /* Final desktop hero animation position: override all legacy layout rules. */
-@media(min-width:821px){.hero .stage,body.subpage .hero .stage{transform:translateY(85px)!important}}
+@media(min-width:821px){.hero .stage,body.subpage .hero .stage{transform:translateY(58px)!important}}
